@@ -1,0 +1,711 @@
+# Algemeen
+of.general.ambiguous = dubbelzinnige
+of.general.custom = Aangepast
+of.general.from = Uit
+of.general.id = Id
+of.general.restart = herstart
+of.general.smart = Slim
+
+# Toetsen
+of.key.zoom = Zoom
+
+# Bericht
+of.message.aa.shaders1 = Anti-aliasing is niet compatibel met Shaders.
+of.message.aa.shaders2 = Schakel Shaders uit om deze optie in te schakelen.
+
+of.message.af.shaders1 = Anisotropic Filtering is niet compatibel met Shaders.
+of.message.af.shaders2 = Schakel Shaders uit om deze optie in te schakelen.
+
+of.message.fr.shaders1 = Fast Render is niet compatibel met Shaders.
+of.message.fr.shaders2 = Schakel Shaders uit om deze optie in te schakelen.
+
+of.message.an.shaders1 = 3D Anaglyph is niet compatibel met Shaders.
+of.message.an.shaders2 = Schakel Shaders uit om deze optie in te schakelen.
+
+of.message.shaders.aa1 = Shaders zijn niet compatibel met antialiasing.
+of.message.shaders.aa2 = Stel Kwaliteit -> Anti-aliasing in op UIT en start het spel opnieuw.
+
+of.message.shaders.af1 = Shaders zijn niet compatibel met anisotrope filtering.
+of.message.shaders.af2 = Stel kwaliteit -> Anisotrope filtering in op UIT.
+
+of.message.shaders.fr1 = Shaders zijn niet compatibel met Fast Render.
+of.message.shaders.fr2 = Stel prestaties -> snel renderen in op UIT.
+
+of.message.shaders.an1 = Shaders are not compatible met 3D Anaglyph.
+of.message.shaders.an2 = Stel andere -> 3D Anaglyph in op OFF.
+
+of.message.shaders.nv1 = Dit shaderpakket heeft een nieuwere OptiFine-versie nodig:% s
+of.message.shaders.nv2 = Weet u zeker dat u wilt doorgaan?
+
+of.message.newVersion = Een nieuwe §eOptiFine§f-versie is beschikbaar: §e% s§f
+of.message.java64Bit = U kunt §e64-bit Java§f installeren om de prestaties te verbeteren.
+of.message.openglError = §eOpenGL Error§f:% s (% s)
+
+of.message.shaders.loading = Shadaring loaded:% s
+
+of.message.other.reset = Alle video-instellingen naar hun standaardwaarden resetten?
+
+of.message.loadingVisibleChunks = zichtbare delen laden
+
+# Huidaanpassing
+
+of.options.skinCustomisation.ofCape = OptiFine Cape ...
+
+# Beeldinstellingen
+
+options.graphics.tooltip.1 = Visuele kwaliteit
+options.graphics.tooltip.2 = Snel - lagere kwaliteit, sneller
+options.graphics.tooltip.3 = Fancy - hogere kwaliteit, langzamer
+options.graphics.tooltip.4 = Verandert het uiterlijk van wolken, bladeren, water,
+options.graphics.tooltip.5 = schaduwen en graszijden.
+
+of.options.renderDistance.tiny = Kleine
+of.options.renderDistance.short = Kort
+of.options.renderDistance.normal = Normaal
+of.options.renderDistance.far = Ver
+of.options.renderDistance.extreme = Extreme
+of.options.renderDistance.insane = Insane
+of.options.renderDistance.ludicrous = Belachelijk
+
+options.renderDistance.tooltip.1 = Zichtbare afstand
+options.renderDistance.tooltip.2 = 2 Tiny - 32m (snelste)
+options.renderDistance.tooltip.3 = 8 Normaal - 128 m (normaal)
+options.renderDistance.tooltip.4 = 16 Far - 256m (trager)
+options.renderDistance.tooltip.5 = 32 Extreme - 512m (traagste!) zeer veeleisende resource
+options.renderDistance.tooltip.6 = 48 Insane - 768m, heeft 2GB RAM nodig
+options.renderDistance.tooltip.7 = 64 Belachelijk - 1024m, heeft 3GB RAM nodig
+options.renderDistance.tooltip.8 = Waarden boven de 16 zijn ver alleen effectief in lokale werelden.
+
+options.ao.tooltip.1 = Vlotte verlichting
+options.ao.tooltip.2 = UIT - geen vloeiende verlichting (sneller)
+options.ao.tooltip.3 = Minimaal - eenvoudige soepele verlichting (langzamer)
+options.ao.tooltip.4 = Maximaal - complexe soepele verlichting (traagst)
+
+options.framerateLimit.tooltip.1 = Max framerate
+options.framerateLimit.tooltip.2 = VSync - limit om framerate te monitoren (60, 30, 20)
+options.framerateLimit.tooltip.3 = 5-255 - variable
+options.framerateLimit.tooltip.4 = Onbeperkt - geen limiet (snelste)
+options.framerateLimit.tooltip.5 = De framerate limiet verlaagt de FPS, door
+options.framerateLimit.tooltip.6 = de limietwaarde wordt niet bereikt.
+of.options.framerateLimit.vsync = VSync
+
+of.options.AO_LEVEL = Soepel verlichtingsniveau
+of.options.AO_LEVEL.tooltip.1 = Blij verlichtingsniveau
+of.options.AO_LEVEL.tooltip.2 = UIT - geen schaduwen
+of.options.AO_LEVEL.tooltip.3 = 50 %% - normale schaduwen
+of.options.AO_LEVEL.tooltip.4 = 100 %% - zwarte schaduwen
+
+options.viewBobbing.tooltip.1 = Meer echte beweging.
+options.viewBobbing.tooltip.2 = Stel bij mipmaps de optie in op UIT voor de beste resultaten.
+
+options.guiScale.tooltip.1 = GUI Scale
+options.guiScale.tooltip.2 = Auto - automatisch grootte
+options.guiScale.tooltip.3 = Small, Normal, Large - 1x tot 3x
+options.guiScale.tooltip.4 = 4x tot 10x - beschikbaar op 4K-schermen
+options.guiScale.tooltip.5 = Oneven waarden (1x, 3x, 5x ...) zijn niet compatibel met Unicode.
+options.guiScale.tooltip.6 = Een kleinere GUI is mogelijk sneller.
+
+options.vbo.tooltip.1 = Vertex Buffer-objecten
+options.vbo.tooltip.2 = Gebruikt gewoonlijk een alternatief renderingmodel
+options.vbo.tooltip.3 = sneller (5-10 %%) dan de standaard rendering.
+
+options.gamma.tooltip.1 = Wijzig de helderheid van donkerdere objecten.
+options.gamma.tooltip.2 = Moody - standaardhelderheid
+options.gamma.tooltip.3 = 1-99 %% - variable
+options.gamma.tooltip.4 = Helder - maximale helderheid voor donkerdere objecten
+options.gamma.tooltip.5 = Deze optie heeft geen invloed op de helderheid van
+options.gamma.tooltip.6 = fully zwarte objecten.
+
+options.anaglyph.tooltip.1 = 3D Anaglyph
+options.anaglyph.tooltip.2 = Maakt een stereoscopisch 3D-effect mogelijk met verschillende kleuren
+options.anaglyph.tooltip.3 = voor elk oog.
+options.anaglyph.tooltip.4 = Vereist een rood-cyaan bril voor een goede weergave.
+
+of.options.ALTERNATE_BLOCKS = Alternatieve blokken
+of.options.ALTERNATE_BLOCKS.tooltip.1 = Alternatieve blokken
+of.options.ALTERNATE_BLOCKS.tooltip.2 = Gebruikt alternatieve blokmodellen voor me stroken.
+of.options.ALTERNATE_BLOCKS.tooltip.3 = Afhankelijk van het sterrend resource pack.
+
+of.options.FOG_FANCY = Mist
+of.options.FOG_FANCY.tooltip.1 = Misttype
+of.options.FOG_FANCY.tooltip.2 = Snel - snellere mist
+of.options.FOG_FANCY.tooltip.3 = Fancy - langzamere mist, ziet er beter uit
+of.options.FOG_FANCY.tooltip.4 = UIT - geen mist, snelste
+of.options.FOG_FANCY.tooltip.5 = De mooie mist is alleen beschikbaar als deze wordt ondersteund door
+of.options.FOG_FANCY.tooltip.6 = grafische kaart.
+
+of.options.FOG_START = Mist Start
+of.options.FOG_START.tooltip.1 = Miststart
+of.options.FOG_START.tooltip.2 = 0.2 - de mist begint bij de speler
+of.options.FOG_START.tooltip.3 = 0.8 - de mist start ver van de speler
+of.options.FOG_START.tooltip.4 = Deze optie heeft meestal geen invloed op de uitvoering.
+
+of.options.CHUNK_LOADING = Chunk Loading
+of.options.CHUNK_LOADING.tooltip.1 = Chunk Loading
+of.options.CHUNK_LOADING.tooltip.2 = Standaard - onstabiele FPS bij het laden van chunks
+of.options.CHUNK_LOADING.tooltip.3 = Smooth - stable FPS
+of.options.CHUNK_LOADING.tooltip.4 = Multi-Core - staande FPS, 3x snellere wereldlading
+of.options.CHUNK_LOADING.tooltip.5 = Smooth en Multi-Core verwijderen het stotteren en
+of.options.CHUNK_LOADING.tooltip.6 = bevriest veroorzaakt door geladen van blokken.
+of.options.CHUNK_LOADING.tooltip.7 = Multi-Core kan 3x de wereld geladen en
+of.options.CHUNK_LOADING.tooltip.8 = verhogen FPS door een tweede CPU-kern te gebruiken.
+of.options.chunkLoading.smooth = Smooth
+of.options.chunkLoading.multiCore = Multi-Core
+
+of.options.shaders = shaders ...
+of.options.shadersTitle = shaders
+
+of.options.shaders.packNone = OFF
+of.options.shaders.packDefault = (intern)
+
+of.options.shaders.ANTIALIASING = Anti-aliasing
+of.options.shaders.ANTIALIASING.tooltip.1 = Anti-aliasing
+of.options.shaders.ANTIALIASING.tooltip.2 = UIT - (standaard) geen anti-aliasing (sneller)
+of.options.shaders.ANTIALIASING.tooltip.3 = FXAA 2x, 4x - antialiased lijnen en randen (langzamer)
+of.options.shaders.ANTIALIASING.tooltip.4 = FXAA is een post-processing effect dat verzacht
+of.options.shaders.ANTIALIASING.tooltip.5 = gekarteldelijnen en Lopende kleurovergangen.
+of.options.shaders.ANTIALIASING.tooltip.6 = Het is sneller dan traditionele antialiasing
+of.options.shaders.ANTIALIASING.tooltip.7 = en is compatibel met shaders en Fast Render.
+
+of.options.shaders.NORMAL_MAP = Normale kaart
+of.options.shaders.NORMAL_MAP.tooltip.1 = Normale kaart
+of.options.shaders.NORMAL_MAP.tooltip.2 = AAN - (standaard) schakel normale kaarten in
+of.options.shaders.NORMAL_MAP.tooltip.3 = UIT - schakel normale kaarten uit
+of.options.shaders.NORMAL_MAP.tooltip.4 = Normale kaarten kunnen door het shader-pakket worden gebruikt
+of.options.shaders.NORMAL_MAP.tooltip.5 = om 3D-geometrie op vlakke modeloppervlakken te simuleren.
+of.options.shaders.NORMAL_MAP.tooltip.6 = De normale mapstructuren worden geleverd door de
+of.options.shaders.NORMAL_MAP.tooltip.7 = huidige resource pack.
+
+of.options.shaders.SPECULAR_MAP = Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.1 = Specular Map
+of.options.shaders.SPECULAR_MAP.tooltip.2 = AAN - (standaard) spiegelende kaarten inschakelen
+of.options.shaders.SPECULAR_MAP.tooltip.3 = OFF - spiegelen kaarten uitschakelen
+of.options.shaders.SPECULAR_MAP.tooltip.4 = Specifieke kaarten kunnen worden gebruikt door het shader-pakket
+of.options.shaders.SPECULAR_MAP.tooltip.5 = om speciale reflectie-effect simuleren.
+of.options.shaders.SPECULAR_MAP.tooltip.6 = De spiegelende kaartstructuren worden geleverd door de
+of.options.shaders.SPECULAR_MAP.tooltip.7 = Huidig ​​?? resourcepakket.
+
+of.options.shaders.RENDER_RES_MUL = Kwaliteit renderen
+of.options.shaders.RENDER_RES_MUL.tooltip.1 = Kwaliteit renderen
+of.options.shaders.RENDER_RES_MUL.tooltip.2 = 0.5x - low (snelst)
+of.options.shaders.RENDER_RES_MUL.tooltip.3 = 1x - standaard (standaard)
+of.options.shaders.RENDER_RES_MUL.tooltip.4 = 2x - high (langzaamste)
+of.options.shaders.RENDER_RES_MUL.tooltip.5 = Renderkwaliteit bepaalt de grootte van de textuur
+of.options.shaders.RENDER_RES_MUL.tooltip.6 =veel het arceringspakket werkt.
+of.options.shaders.RENDER_RES_MUL.tooltip.7 = Lagere waarden kunnen handig zijn bij 4K-schermen.
+of.options.shaders.RENDER_RES_MUL.tooltip.8 = Hogere waarden werken als een antialiasing-filter.
+
+of.options.shaders.SHADOW_RES_MUL = Schaduwkwaliteit
+of.options.shaders.SHADOW_RES_MUL.tooltip.1 = Schaduwkwaliteit
+of.options.shaders.SHADOW_RES_MUL.tooltip.2 = 0.5x - low (snelst)
+of.options.shaders.SHADOW_RES_MUL.tooltip.3 = 1x - standaard (standaard)
+of.options.shaders.SHADOW_RES_MUL.tooltip.4 = 2x - high (langzaamste)
+of.options.shaders.SHADOW_RES_MUL.tooltip.5 = Schaduwkwaliteit bepaalt de schaduwkaart
+of.options.shaders.SHADOW_RES_MUL.tooltip.6 = texture gebruikt door het shader-pakket.
+of.options.shaders.SHADOW_RES_MUL.tooltip.7 = Lagere waarden = niet-actueel, grovere schaduwen.
+of.options.shaders.SHADOW_RES_MUL.tooltip.8 = Hogere waarden = gedetailleerde, fijnere schaduwen.
+
+of.options.shaders.HAND_DEPTH_MUL = Handdiepte
+of.options.shaders.HAND_DEPTH_MUL.tooltip.1 = Handdiepte
+of.options.shaders.HAND_DEPTH_MUL.tooltip.2 = 0.5x - hand in de buurt van de camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.3 = 1x - (standaard)
+of.options.shaders.HAND_DEPTH_MUL.tooltip.4 = 2x - hand ver van de camera
+of.options.shaders.HAND_DEPTH_MUL.tooltip.5 = Handmatige diepgang hoe ver de handheld-objecten Zich staan
+of.options.shaders.HAND_DEPTH_MUL.tooltip.6 = van de camera.
+of.options.shaders.HAND_DEPTH_MUL.tooltip.7 = Voor shader-pakketten met diepte-waziteit zou dit moeten veranderen
+of.options.shaders.HAND_DEPTH_MUL.tooltip.8 = het vervagen van handheld-objecten.
+
+of.options.shaders.CLOUD_SHADOW = Cloud Shadow
+
+of.options.shaders.OLD_HAND_LIGHT = Old Hand Light
+of.options.shaders.OLD_HAND_LIGHT.tooltip.1 = Oude handlamp
+of.options.shaders.OLD_HAND_LIGHT.tooltip.2 = Standaard - beheerd door het shader-pakket
+of.options.shaders.OLD_HAND_LIGHT.tooltip.3 = ON - gebruik oude handlamp
+of.options.shaders.OLD_HAND_LIGHT.tooltip.4 = UIT - gebruik nieuwe handlamp
+of.options.shaders.OLD_HAND_LIGHT.tooltip.5 = Oude handverlichting maakt shader-pakketten mogelijk die alleen
+of.options.shaders.OLD_HAND_LIGHT.tooltip.6 = lichtgevende items in de hoofdhand herkennen
+of.options.shaders.OLD_HAND_LIGHT.tooltip.7 = om ook te werken met items in de off-hand.
+
+of.options.shaders.OLD_LIGHTING = Oude belichting
+of.options.shaders.OLD_LIGHTING.tooltip.1 = Oude belichting
+of.options.shaders.OLD_LIGHTING.tooltip.2 = Standaard - bestuurd door het shader-pakket
+of.options.shaders.OLD_LIGHTING.tooltip.3 = ON - gebruik oude verlichting
+of.options.shaders.OLD_LIGHTING.tooltip.4 = UIT - gebruik geen oude verlichting
+of.options.shaders.OLD_LIGHTING.tooltip.5 = Oude verlichting bepaalt de toegepaste vaste belichting
+of.options.shaders.OLD_LIGHTING.tooltip.6 = bij vanille aan de zijkanten van het blok.
+of.options.shaders.OLD_LIGHTING.tooltip.7 = Shader-pakketten die schaduwen gebruiken, dragen meestal
+of.options.shaders.OLD_LIGHTING.tooltip.8 = veel voordeliger afhankelijk van de positie van de zon.
+
+of.options.shaders.DOWNLOAD = Download Shaders
+of.options.shaders.DOWNLOAD.tooltip.1 = Shaders downloaden
+of.options.shaders.DOWNLOAD.tooltip.2 =
+of.options.shaders.DOWNLOAD.tooltip.3 = De shader packs-pagina in een browser geopend.
+of.options.shaders.DOWNLOAD.tooltip.4 = Plaats de gedownloade shader-pakketten in de "Shaders-map"
+of.options.shaders.DOWNLOAD.tooltip.5 = en ze verschijnen in de lijst met getailleerde shaders.
+
+of.options.shaders.SHADER_PACK = Shader-pakket
+
+of.options.shaders.shadersFolder = Shaders-map
+of.options.shaders.shaderOptions = Shader-opties ...
+
+of.options.shaderOptionsTitle = Shader-opties
+
+of.options.quality = Kwaliteit ...
+of.options.qualityTitle = Kwaliteitsinstellingen
+
+of.options.details = Meer informatie ...
+of.options.detailsTitle = Detailinstellingen
+
+of.options.performance = het rendement ...
+of.options.performanceTitle = Prestatie-instellingen
+
+of.options.animations = animatie ...
+of.options.animationsTitle = Animatie-instellingen
+
+of.options.other = Andere ...
+of.options.otherTitle = Andere instellingen
+
+of.options.other.reset = Reset video-instellingen ...
+
+of.shaders.profile = Profiel
+
+# Kwaliteit
+
+of.options.mipmap.bilinear = Bilineair
+of.options.mipmap.linear = Lineair
+of.options.mipmap.nearest = verzending
+of.options.mipmap.trilinear = Trilinear
+
+options.mipmapLevels.tooltip.1 = Visueel effect dat verre objecten er beter uitzien
+options.mipmapLevels.tooltip.2 = door de insulation details te verzachten
+options.mipmapLevels.tooltip.3 = UIT - geen vloeiend maken
+options.mipmapLevels.tooltip.4 = 1 - minimale afvlakking
+options.mipmapLevels.tooltip.5 = 4 - maximale afvlakking
+options.mipmapLevels.tooltip.6 = Deze optie heeft veel geen invloed op de prestaties.
+
+of.options.MIPMAP_TYPE = Typ Mipmap
+of.options.MIPMAP_TYPE.tooltip.1 = Visueel effect zorgt voor verre objecten er beter uitzien
+of.options.MIPMAP_TYPE.tooltip.2 = door de insulation details te verzachten
+of.options.MIPMAP_TYPE.tooltip.3 = weergave - ruwe smoothing (snelste)
+of.options.MIPMAP_TYPE.tooltip.4 = Lineair - normale vloeiend maken
+of.options.MIPMAP_TYPE.tooltip.5 = Bilineair - fijne afvlakking
+of.options.MIPMAP_TYPE.tooltip.6 = Trilineaire - beste vloeiend maken (traagst)
+
+
+of.options.AA_LEVEL = Anti-aliasing
+of.options.AA_LEVEL.tooltip.1 = Anti-aliasing
+of.options.AA_LEVEL.tooltip.2 = UIT - (standaard) geen anti-aliasing (sneller)
+of.options.AA_LEVEL.tooltip.3 = 2-16 - antialiasinglijnen en -randen (langzamer)
+of.options.AA_LEVEL.tooltip.4 = De antialiasing maakt gekartelde regels blij en
+of.options.AA_LEVEL.tooltip.5 = Luid kleurovergangen.
+of.options.AA_LEVEL.tooltip.6 = Indien ingeschakeld, kan dit de FPS wijzigen.
+of.options.AA_LEVEL.tooltip.7 = Niet alle niveaus worden alle grafische kaarten ondersteund.
+of.options.AA_LEVEL.tooltip.8 = Effectief na een HERSTART!
+
+of.options.AF_LEVEL = Anisotropische filtering
+of.options.AF_LEVEL.tooltip.1 = Anisotrope filtering
+of.options.AF_LEVEL.tooltip.2 = UIT - (standaard) standaard textuurdetail (sneller)
+of.options.AF_LEVEL.tooltip.3 = 2-16 - fijnere details in mipmapped-structuren (langzamer)
+of.options.AF_LEVEL.tooltip.4 = De anisotrope filtering herstelt gegevens in
+of.options.AF_LEVEL.tooltip.5 = mipmapped textures.
+of.options.AF_LEVEL.tooltip.6 = Indien ingeschakeld, kan dit de FPS wijzigen.
+
+of.options.CLEAR_WATER = Water opruimen
+of.options.CLEAR_WATER.tooltip.1 = Water wissen
+of.options.CLEAR_WATER.tooltip.2 = AAN - helder, transparant water
+of.options.CLEAR_WATER.tooltip.3 = UIT - standaard water
+
+of.options.RANDOM_ENTITIES = Willekeurige entiteiten
+of.options.RANDOM_ENTITIES.tooltip.1 = Willekeurige entiteiten
+of.options.RANDOM_ENTITIES.tooltip.2 = OFF - geen willekeurige entiteiten, sneller
+of.options.RANDOM_ENTITIES.tooltip.3 = ON - willekeurige entiteiten, langzamer
+of.options.RANDOM_ENTITIES.tooltip.4 = Willekeurige entiteiten gebruiken willekeurige texturen voor de spelentiteiten.
+of.options.RANDOM_ENTITIES.tooltip.5 = Het heeft een resource pack nodig met texturen met meerdere entiteiten.
+
+of.options.BETTER_GRASS = Beter gras
+of.options.BETTER_GRASS.tooltip.1 = Beter gras
+of.options.BETTER_GRASS.tooltip.2 = OFF - standaardzijgrastextuur, snelste
+of.options.BETTER_GRASS.tooltip.3 = Snel - volle zijgrastextuur, langzamer
+of.options.BETTER_GRASS.tooltip.4 = Fancy - dynamische zijgrastextuur, het langzaamst
+
+of.options.BETTER_SNOW = Betere sneeuw
+of.options.BETTER_SNOW.tooltip.1 = Betere sneeuw
+of.options.BETTER_SNOW.tooltip.2 = UIT - standaard sneeuw, sneller
+of.options.BETTER_SNOW.tooltip.3 = AAN - betere sneeuw, langzamer
+of.options.BETTER_SNOW.tooltip.4 = Toont sneeuw in transparante blokken (hek, hoog gras)
+of.options.BETTER_SNOW.tooltip.5 = when er grenzen zijn aan sneeuwblokken.
+
+of.options.CUSTOM_FONTS = Aangepast lettertype
+of.options.CUSTOM_FONTS.tooltip.1 = Aangepaste lettertypen
+of.options.CUSTOM_FONTS.tooltip.2 = AAN - gebruikt aangepaste lettertypen (standaard), langzamer
+of.options.CUSTOM_FONTS.tooltip.3 = UIT - gebruikt standaardlettertype, sneller
+of.options.CUSTOM_FONTS.tooltip.4 = De aangepaste lettertypes worden geleverd door de huidige
+of.options.CUSTOM_FONTS.tooltip.5 = resource pack.
+
+of.options.CUSTOM_COLORS = Aangepaste pastel kleuren
+of.options.CUSTOM_COLORS.tooltip.1 = Customizepaste kleuren
+of.options.CUSTOM_COLORS.tooltip.2 = AAN - gebruikt aanpassen kleuren (standaard), langzamer
+of.options.CUSTOM_COLORS.tooltip.3 = UIT - gebruikt standaardkleuren sneller
+of.options.CUSTOM_COLORS.tooltip.4 = De aangepaste kleuren worden geleverd door de current
+of.options.CUSTOM_COLORS.tooltip.5 = resource pack.
+
+of.options.SWAMP_COLORS = Moeraskleuren
+of.options.SWAMP_COLORS.tooltip.1 = Moeraskleuren
+of.options.SWAMP_COLORS.tooltip.2 = AAN - gebruik moeraskleuren (standaard), langzamer
+of.options.SWAMP_COLORS.tooltip.3 = UIT - gebruik geen moeraskleuren sneller
+of.options.SWAMP_COLORS.tooltip.4 = De kleuren van het moeras zijn van invloed op gras, bladeren, wijnstokken en water.
+
+of.options.SMOOTH_BIOMES = Smooth Biomes
+of.options.SMOOTH_BIOMES.tooltip.1 = Smooth Biomes
+of.options.SMOOTH_BIOMES.tooltip.2 = AAN - afvlakking van biome-randen (standaard), langzamer
+of.options.SMOOTH_BIOMES.tooltip.3 = UIT - geen afvlakking van biome-randen, sneller
+of.options.SMOOTH_BIOMES.tooltip.4 = De afvlakking van de biome-grenzen gebeurt door middel van sampling en
+of.options.SMOOTH_BIOMES.tooltip.5 = middeling van de kleur van alle omringende blokken.
+of.options.SMOOTH_BIOMES.tooltip.6 = Beanted zijn zijn gras, bladeren, wijnstokken en water.
+
+of.options.CONNECTED_TEXTURES = Verbonden texturen
+of.options.CONNECTED_TEXTURES.tooltip.1 = Verbonden structuren
+of.options.CONNECTED_TEXTURES.tooltip.2 = UIT - geen verbonden texturen (standaard)
+of.options.CONNECTED_TEXTURES.tooltip.3 = Snel - snel verbonden texturen
+of.options.CONNECTED_TEXTURES.tooltip.4 = Fancy - fancy connected textures
+of.options.CONNECTED_TEXTURES.tooltip.5 = Verbonden texturen sluit zich aan bij de structuren van glas,
+of.options.CONNECTED_TEXTURES.tooltip.6 = zandsteen en boekenplanken wanneer deze naast
+of.options.CONNECTED_TEXTURES.tooltip.7 = elkaar. De verbonden texturen worden geleverd
+of.options.CONNECTED_TEXTURES.tooltip.8 = door het huidige resource pack.
+
+of.options.NATURAL_TEXTURES = Natuurlijke texturen
+of.options.NATURAL_TEXTURES.tooltip.1 = Natuurlijke texturen
+of.options.NATURAL_TEXTURES.tooltip.2 = UIT - geen natuurlijke texturen (standaard)
+of.options.NATURAL_TEXTURES.tooltip.3 = AAN --gebruik natuurlijke texturen
+of.options.NATURAL_TEXTURES.tooltip.4 = Natuurlijke texturen verwijderen het gridachtige patroon
+of.options.NATURAL_TEXTURES.tooltip.5 = gemaakt door blokken van hetzelfde type te herhalen.
+of.options.NATURAL_TEXTURES.tooltip.6 = Het gebruikte geroteerde en omgedraaideoideo van de basis
+of.options.NATURAL_TEXTURES.tooltip.7 = blokstructuur. De configuratie voor het natuurlijke
+of.options.NATURAL_TEXTURES.tooltip.8 = textures wordt geleverd door het huidige resource pack.
+
+of.options.EMISSIVE_TEXTURES = Emissieve texturen
+of.options.EMISSIVE_TEXTURES.tooltip.1 = Emissive Textures
+of.options.EMISSIVE_TEXTURES.tooltip.2 = UIT - geen emissieve structuren (standaard)
+of.options.EMISSIVE_TEXTURES.tooltip.3 = AAN - gebruik emissieve structuren
+of.options.EMISSIVE_TEXTURES.tooltip.4 = De emissieve texturen worden weergegeven als overlays
+of.options.EMISSIVE_TEXTURES.tooltip.5 = met volledige helderheid. Ze kunnen worden gebruikt om te simuleren
+of.options.EMISSIVE_TEXTURES.tooltip.6 = lichtgevende delen van de basisstructuur.
+of.options.EMISSIVE_TEXTURES.tooltip.7 = De emissieve structuren worden geleverd door de current
+of.options.EMISSIVE_TEXTURES.tooltip.8 = resource pack.
+
+of.options.CUSTOM_SKY = Aangepaste lucht
+of.options.CUSTOM_SKY.tooltip.1 = Aangepaste lucht
+of.options.CUSTOM_SKY.tooltip.2 = AAN - aangepaste hemelstructuren (standaard), langzaam
+of.options.CUSTOM_SKY.tooltip.3 = UIT - standaard lucht, sneller
+of.options.CUSTOM_SKY.tooltip.4 = De aangepaste hemelstructuren worden geleverd door de stroom
+of.options.CUSTOM_SKY.tooltip.5 = resource pack.
+
+of.options.CUSTOM_ITEMS = Aangepaste items voor items
+of.options.CUSTOM_ITEMS.tooltip.1 = Aangepaste items voor items
+of.options.CUSTOM_ITEMS.tooltip.2 = AAN - aangepaste artikelstructuren (standaard), langzaam
+of.options.CUSTOM_ITEMS.tooltip.3 = UIT - standaard itemstructuren, sneller
+of.options.CUSTOM_ITEMS.tooltip.4 = De aangepaste itemstructuren worden geleverd door de current
+of.options.CUSTOM_ITEMS.tooltip.5 = resource pack.
+
+of.options.CUSTOM_ENTITY_MODELS = Aangepaste entiteitsmodellen
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1 = Aangepaste entiteitsmodellen
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2 = ON - aangepaste entiteitsmodellen (standaard), langzaam
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3 = OFF - standaard entiteitsmodellen, sneller
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4 = De aangepaste entiteitsmodellen worden geleverd door de current
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5 = resource pack.
+
+of.options.CUSTOM_GUIS = Aangepaste GUI's
+of.options.CUSTOM_GUIS.tooltip.1 = Aangepaste GUI's
+of.options.CUSTOM_GUIS.tooltip.2 = AAN - aangepaste GUI's (standaard), langzamer
+of.options.CUSTOM_GUIS.tooltip.3 = OFF - standaard GUI's, sneller
+of.options.CUSTOM_GUIS.tooltip.4 = De aangepaste GUI wordt geleverd door het huidige resource pack.
+
+# Details
+
+of.options.CLOUDS = wolken
+of.options.CLOUDS.tooltip.1 = wolken
+of.options.CLOUDS.tooltip.2 = Standaard - zoals opgeslagen door Graphics in te stellen
+of.options.CLOUDS.tooltip.3 = Snel - lagere kwaliteit, sneller
+of.options.CLOUDS.tooltip.4 = Fancy - hogere kwaliteit, langzamer
+of.options.CLOUDS.tooltip.5 = UIT - geen wolken, snelste
+of.options.CLOUDS.tooltip.6 = Snelle bewolking wordt 2D gemaakt.
+of.options.CLOUDS.tooltip.7 = Fancy clouds worden 3D weergegeven.
+
+of.options.CLOUD_HEIGHT = Wolkenhoogte
+of.options.CLOUD_HEIGHT.tooltip.1 = Cloudhoogte
+of.options.CLOUD_HEIGHT.tooltip.2 = UIT - standaardhoogte
+of.options.CLOUD_HEIGHT.tooltip.3 = 100 %% - boven de wereldhoogtelimiet
+
+of.options.TREES = Bomen
+of.options.TREES.tooltip.1 = Bomen
+of.options.TREES.tooltip.2 = Standaard - zoals opgeslagen door Graphics in te stellen
+of.options.TREES.tooltip.3 = Snel - lagere kwaliteit, sneller
+of.options.TREES.tooltip.4 = Smart - hogere kwaliteit, snel
+of.options.TREES.tooltip.5 = Fancy - hoogste kwaliteit, langzamer
+of.options.TREES.tooltip.6 = Snelle bomen hebben ondoorzichtige bladeren.
+of.options.TREES.tooltip.7 = Fancy en slimme bomen hebben extreme bladeren.
+
+of.options.RAIN = Regen en sneeuw
+of.options.RAIN.tooltip.1 = Regen en sneeuw
+of.options.RAIN.tooltip.2 = Standaard - zoals geblokkeerd door Graphics in te stellen
+of.options.RAIN.tooltip.3 = Snel - lichte regen / sneeuw, sneller
+of.options.RAIN.tooltip.4 = Fancy - zware regen / sneeuw, langzamer
+of.options.RAIN.tooltip.5 = UIT - geen regen / sneeuw, snelst
+of.options.RAIN.tooltip.6 = Wanneer de regen UIT is, klinken de regen en plonsen
+of.options.RAIN.tooltip.7 = zijn nog steeds paarden actief.
+
+of.options.SKY = Sky
+of.options.SKY.tooltip.1 = Sky
+of.options.SKY.tooltip.2 = AAN - lucht is zichtbaar, langzamer
+of.options.SKY.tooltip.3 = UIT - lucht is niet zichtbaar, sneller
+of.options.SKY.tooltip.4 = Als de lucht UIT is, zijn de maan en de zon nog steeds zichtbaar zichtbaar.
+
+of.options.STARS = sterren
+of.options.STARS.tooltip.1 = Sterren
+of.options.STARS.tooltip.2 = AAN - sterren zijn zichtbaar, langzamer
+of.options.STARS.tooltip.3 = UIT - sterren zijn niet zichtbaar, sneller
+
+of.options.SUN_MOON = Zon en maan
+of.options.SUN_MOON.tooltip.1 = Zon en maan
+of.options.SUN_MOON.tooltip.2 = AAN - zon en maan zijn zichtbaar (standaard)
+of.options.SUN_MOON.tooltip.3 = UIT - zon en maan zijn niet zichtbaar (sneller)
+
+of.options.SHOW_CAPES = Show Capes
+of.options.SHOW_CAPES.tooltip.1 = Toon hoofdletters
+of.options.SHOW_CAPES.tooltip.2 = AAN - toon speler capes (standaard)
+of.options.SHOW_CAPES.tooltip.3 = UIT - toon speler-capes niet
+
+of.options.TRANSLUCENT_BLOCKS = Doorschijnende blokken
+of.options.TRANSLUCENT_BLOCKS.tooltip.1 = Doorschijnende blokken
+of.options.TRANSLUCENT_BLOCKS.tooltip.2 = Fancy - juiste kleurmenging (standaard)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3 = Snel - snelle kleurenmenging (sneller)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4 = Regelt de kleurmenging van doorschijnende blokken
+of.options.TRANSLUCENT_BLOCKS.tooltip.5 = met andere kleuren (glas in lood, water, ijs)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6 = when achter elkaar geplaatst met lucht ertussen.
+
+of.options.HELD_ITEM_TOOLTIPS = Tooltips vastgehouden item
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1 = Tooltips voor vastgehouden items
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2 = ON - toon tooltips voor items in de wacht (standaard)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3 = UIT - geen knopinfo voor items in de wachtrij weergegeven
+
+of.options.ADVANCED_TOOLTIPS = Geavanceerde tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.1 = Geavanceerde tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.2 = AAN - toon geavanceerde tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.3 = UIT - laat geen geavanceerde tooltips zien (standaard)
+of.options.ADVANCED_TOOLTIPS.tooltip.4 = Uitgebreide tooltips tonen uitgebreide informatie voor
+of.options.ADVANCED_TOOLTIPS.tooltip.5 = items (id, duurzaamheid) en voor arceringsopties
+of.options.ADVANCED_TOOLTIPS.tooltip.6 = (id, bron, standaardwaarde).
+
+of.options.DROPPED_ITEMS = Dropped Items
+of.options.DROPPED_ITEMS.tooltip.1 = Dropped Items
+of.options.DROPPED_ITEMS.tooltip.2 = Standaard - zoals ingesteld door Graphics in te stellen
+of.options.DROPPED_ITEMS.tooltip.3 = Snel - 2D geplaatste items, sneller
+of.options.DROPPED_ITEMS.tooltip.4 = Fancy - 3D drop-items, langzamer
+
+options.entityShadows.tooltip.1 = Entity Shadows
+options.entityShadows.tooltip.2 = AAN - toon entiteitschaduwen
+options.entityShadows.tooltip.3 = OFF - geen entiteitenschaduwen weergeven
+
+of.options.VIGNETTE = Vignet
+of.options.VIGNETTE.tooltip.1 = Visueel effect dat de hoeken van het scherm ergens donkerder maakt
+of.options.VIGNETTE.tooltip.2 = Standaard - zoals opgeslagen door de instelling Graphics (standaard)
+of.options.VIGNETTE.tooltip.3 = Snel - vignet uitgeschakeld (sneller)
+of.options.VIGNETTE.tooltip.4 = Fancy - vignette ingeschakeld (langzamer)
+of.options.VIGNETTE.tooltip.5 = Het vignet kan een significant effect hebben op de FPS,
+of.options.VIGNETTE.tooltip.6 = vooral bij garantie op volledig scherm.
+of.options.VIGNETTE.tooltip.7 = Het vignette-effect is erg subtiel en veilig
+of.options.VIGNETTE.tooltip.8 = uitgeschakeld.
+
+of.options.DYNAMIC_FOV = Dynamisch gezichtsveld
+of.options.DYNAMIC_FOV.tooltip.1 = Dynamisch gezichtsveld
+of.options.DYNAMIC_FOV.tooltip.2 = AAN - schakel dynamische FOV in (standaard)
+of.options.DYNAMIC_FOV.tooltip.3 = OFF - schakel dynamische FOV uit
+of.options.DYNAMIC_FOV.tooltip.4 = Verandert het gezichtsveld (FOV) tijdens het vliegen, sprinten
+of.options.DYNAMIC_FOV.tooltip.5 = of een boog trekken.
+
+of.options.DYNAMIC_LIGHTS = Dynamische lampjes
+of.options.DYNAMIC_LIGHTS.tooltip.1 = Dynamische lichten
+of.options.DYNAMIC_LIGHTS.tooltip.2 = UIT - geen dynamische lampjes (standaard)
+of.options.DYNAMIC_LIGHTS.tooltip.3 = Snel - snel reëel licht (elke 500ms bijgewerkt)
+of.options.DYNAMIC_LIGHTS.tooltip.4 = Fancy - fancy dynamic lights (in realtime bijgewerkt)
+of.options.DYNAMIC_LIGHTS.tooltip.5 = Schakelt lichtuitzendende items in (fakkel, glowstone, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.6 = om alles om hen heen te verlichten wanneer het in de hand wordt gehouden,
+of.options.DYNAMIC_LIGHTS.tooltip.7 = alleen door een andere speler of op de grond gevallen.
+
+# Prestatie
+
+of.options.SMOOTH_FPS = Smooth FPS
+of.options.SMOOTH_FPS.tooltip.1 = Stabiliseert FPS door de grafische driverbuffers te spoelen.
+of.options.SMOOTH_FPS.tooltip.2 = UIT - geen stabilisatie, FPS kan fluctueren
+of.options.SMOOTH_FPS.tooltip.3 = AAN - FPS-stabilisatie
+of.options.SMOOTH_FPS.tooltip.4 = Deze optie is afhankelijk van grafische stuurprogramma's en het effect ervan
+of.options.SMOOTH_FPS.tooltip.5 = is niet altijd zichtbaar.
+
+of.options.SMOOTH_WORLD = Smooth World
+of.options.SMOOTH_WORLD.tooltip.1 = Vertraagt ​​door de interne server.
+of.options.SMOOTH_WORLD.tooltip.2 = UIT - geen stabilisatie, FPS kan fluctueren
+of.options.SMOOTH_WORLD.tooltip.3 = ON - FPS-stabilisatie
+of.options.SMOOTH_WORLD.tooltip.4 = Stabiliseert FPS door de interne server taxation to distribueren.
+of.options.SMOOTH_WORLD.tooltip.5 = Alleen effectief voor lokale werelden (enkele speler).
+
+of.options.FAST_RENDER = Snel renderen
+of.options.FAST_RENDER.tooltip.1 = Snel renderen
+of.options.FAST_RENDER.tooltip.2 = UIT - standaardweergave (standaard)
+of.options.FAST_RENDER.tooltip.3 = AAN - geoptimaliseerde weergave (sneller)
+of.options.FAST_RENDER.tooltip.4 = Maak een geoptimaliseerd renderalgoritme dat afneemt
+of.options.FAST_RENDER.tooltip.5 = de GPU-belasting en kan de FPS operation verhogen.
+
+of.options.FAST_MATH = Snelle wiskunde
+of.options.FAST_MATH.tooltip.1 = Snelle wiskunde
+of.options.FAST_MATH.tooltip.2 = UIT - standaard wiskunde (standaard)
+of.options.FAST_MATH.tooltip.3 = AAN - snellere wiskunde
+of.options.FAST_MATH.tooltip.4 = Gebruikt geoptimaliseerde sin () en cos () functies die kunnen
+of.options.FAST_MATH.tooltip.5 = gebruik de CPU-cache beter en verhoog de FPS.
+
+of.options.CHUNK_UPDATES = Chunk-updates
+of.options.CHUNK_UPDATES.tooltip.1 = Chunk-updates
+of.options.CHUNK_UPDATES.tooltip.2 = 1 - trager laden van wereld, hogere FPS (standaard)
+of.options.CHUNK_UPDATES.tooltip.3 = 3 - sneller laden van de wereld, lagere FPS
+of.options.CHUNK_UPDATES.tooltip.4 = 5 - snelste wereld laden, laagste FPS
+of.options.CHUNK_UPDATES.tooltip.5 = Aantal chunk-updates per weergegeven frame,
+of.options.CHUNK_UPDATES.tooltip.6 = hogere waarden kunnen de framerate destabiliseren.
+
+of.options.CHUNK_UPDATES_DYNAMIC = Dynamische updates
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1 = Dynamische chunkupdates
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2 = OFF - standaard chunkupdates per frame (standaard)
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3 = AAN - meer updates terwijl de speler stil staat
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4 = Dynamische updates dwingen meer chunk-updates terwijl
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5 = de speler staat stil om de wereld sneller te laden.
+
+of.options.LAZY_CHUNK_LOADING = Lazy Chunk Loading
+of.options.LAZY_CHUNK_LOADING.tooltip.1 = Lazy Chunk Loading
+of.options.LAZY_CHUNK_LOADING.tooltip.2 = OFF - standaard server chunk loading
+of.options.LAZY_CHUNK_LOADING.tooltip.3 = ON - lazy server chunk loading (soepeler)
+of.options.LAZY_CHUNK_LOADING.tooltip.4 = Maakt het laden van de geintegreerde serverbrokjes eenvoudiger door
+of.options.LAZY_CHUNK_LOADING.tooltip.5 = verdeelt de chunks over verschillende tikken.
+of.options.LAZY_CHUNK_LOADING.tooltip.6 = Schakel het uit als delen van de wereld niet correct laden.
+of.options.LAZY_CHUNK_LOADING.tooltip.7 = Alleen effectief voor lokale werelden (singleplayer).
+
+of.options.RENDER_REGIONS = Regio's renderen
+of.options.RENDER_REGIONS.tooltip.1 = Regio's renderen
+of.options.RENDER_REGIONS.tooltip.2 = UIT - gebruik geen rendergebieden (standaard)
+of.options.RENDER_REGIONS.tooltip.3 = AAN - gebruik rendergebieden
+of.options.RENDER_REGIONS.tooltip.4 = Render-regio's maken snellere terreinweergave op hoger mogelijk
+of.options.RENDER_REGIONS.tooltip.5 = renderafstanden. Effectiever als VBO's zijn ingeschakeld.
+
+of.options.SMART_ANIMATIONS = Slimme animaties
+of.options.SMART_ANIMATIONS.tooltip.1 = Slimme animaties
+of.options.SMART_ANIMATIONS.tooltip.2 = UIT - gebruik geen slimme animaties (standaard)
+of.options.SMART_ANIMATIONS.tooltip.3 = AAN - gebruik slimme animaties
+of.options.SMART_ANIMATIONS.tooltip.4 = Met slimme animaties zal het spel alleen de animatie animeren 
+of.options.SMART_ANIMATIONS.tooltip.5 = texturen die momenteel zichtbaar zijn op het scherm.
+of.options.SMART_ANIMATIONS.tooltip.6 = Dit vermindert de tiklagepunten en verhoogt de FPS.
+of.options.SMART_ANIMATIONS.tooltip.7 = Vooral handig voor grote mod-pakketten en HD-bronpakketten.
+
+# Animaties
+
+of.options.animation.allOn = Alles AAN
+of.options.animation.allOff = Alles UIT
+of.options.animation.dynamic = Dynamic
+
+of.options.ANIMATED_WATER = Wateranimatie
+of.options.ANIMATED_LAVA = Lava-animatie
+of.options.ANIMATED_FIRE = Fire Animated
+of.options.ANIMATED_PORTAL = Portalanimatie
+of.options.ANIMATED_REDSTONE = Redstone-animatie
+of.options.ANIMATED_EXPLOSION = Explosie-animatie
+of.options.ANIMATED_FLAME = Vlamanimatie
+of.options.ANIMATED_SMOKE = Rookanimatie
+of.options.VOID_PARTICLES = Ongeldige deeltjes
+of.options.WATER_PARTICLES = Waterdeeltjes
+of.options.RAIN_SPLASH = Regensplash
+of.options.PORTAL_PARTICLES = Portaldeeltjes
+of.options.POTION_PARTICLES = Drankdeeltjes
+of.options.DRIPPING_WATER_LAVA = Druipwater / lava
+of.options.ANIMATED_TERRAIN = Terrain-animatie
+of.options.ANIMATED_TEXTURES = Geanimeerde texturen
+of.options.FIREWORK_PARTICLES = Firework Particles
+
+# Anders
+
+of.options.LAGOMETER = Lagometer
+of.options.LAGOMETER.tooltip.1 = Toont de lagometer op het foutopsporingsscherm (F3).
+of.options.LAGOMETER.tooltip.2 = * Oranje - Afhalen van geheugen
+of.options.LAGOMETER.tooltip.3 = * Cyaan - Tick
+of.options.LAGOMETER.tooltip.4 = * Blauw - Geplande uitvoerbare bestanden
+of.options.LAGOMETER.tooltip.5 = * Paars - Chunk-upload
+of.options.LAGOMETER.tooltip.6 = * Rood - Chunk-updates
+of.options.LAGOMETER.tooltip.7 = * Geel - Zichtbaarheidscontrole
+of.options.LAGOMETER.tooltip.8 = * Groen - geef terrein weer
+
+of.options.PROFILER = Debug Profiler
+of.options.PROFILER.tooltip.1 = Profiler debuggen
+of.options.PROFILER.tooltip.2 = AAN - debug-profiler is actief, langzamer
+of.options.PROFILER.tooltip.3 = UIT - debug-profiler is niet actief, sneller
+of.options.PROFILER.tooltip.4 = De debug-profiler verzamelt en toont foutopsporingsinformatie
+of.options.PROFILER.tooltip.5 = wanneer het foutopsporingsscherm open is (F3).
+
+of.options.WEATHER = Weer
+of.options.WEATHER.tooltip.1 = Weer
+of.options.WEATHER.tooltip.2 = AAN - het weer is actief, langzamer
+of.options.WEATHER.tooltip.3 = UIT - het weer is niet actief, sneller
+of.options.WEATHER.tooltip.4 = Het weer regelt regen, sneeuw en onweersbuien.
+of.options.WEATHER.tooltip.5 = Weerbesturing is alleen mogelijk voor lokale werelden.
+
+of.options.time.dayOnly = Alleen dag
+of.options.time.nightOnly = Alleen nacht
+
+of.options.TIME = Time
+of.options.TIME.tooltip.1 = Time
+of.options.TIME.tooltip.2 = Standaard - normale dag / nacht-cycli
+of.options.TIME.tooltip.3 = Alleen dag - alleen dag
+of.options.TIME.tooltip.4 = Alleen nacht - alleen 's nachts
+of.options.TIME.tooltip.5 = De tijdsinstelling werkt alleen in de CREATIVE-modus
+of.options.TIME.tooltip.6 = en voor lokale werelden.
+
+options.fullscreen.tooltip.1 = Volledig
+options.fullscreen.tooltip.2 = AAN - gebruik de modus voor volledig scherm
+options.fullscreen.tooltip.3 = UIT - gebruik venstermodus
+options.fullscreen.tooltip.4 = De modus Volledig scherm kan sneller of langzamer zijn dan
+options.fullscreen.tooltip.5 = venstermodus, afhankelijk van de grafische kaart.
+
+of.options.FULLSCREEN_MODE = Modus volledig scherm
+of.options.FULLSCREEN_MODE.tooltip.1 = Volledig scherm
+of.options.FULLSCREEN_MODE.tooltip.2 = Standaard - gebruik de resolutie van het bureaublad, langzamer
+of.options.FULLSCREEN_MODE.tooltip.3 = BxH - gebruik aangepaste schermresolutie, kan sneller zijn
+of.options.FULLSCREEN_MODE.tooltip.4 = De geselecteerde resolutie wordt gebruikt in de modus voor volledig scherm (F11).
+of.options.FULLSCREEN_MODE.tooltip.5 = Lagere resoluties moeten over het algemeen sneller zijn.
+
+of.options.SHOW_FPS = Toon FPS
+of.options.SHOW_FPS.tooltip.1 = Toont compacte FPS en renderinformatie.
+of.options.SHOW_FPS.tooltip.2 = C: - chunk-renderers
+of.options.SHOW_FPS.tooltip.3 = E: - rendered entities + block entities
+of.options.SHOW_FPS.tooltip.4 = U: - chunk-updates
+of.options.SHOW_FPS.tooltip.5 = De compacte FPS-informatie wordt alleen getoond als de
+of.options.SHOW_FPS.tooltip.6 = Foutopsporingsscherm is niet zichtbaar.
+
+of.options.save.default = Standaard (2s)
+of.options.save.20s = 20s
+of.options.save.3min = 3min
+of.options.save.30min = 30min
+
+of.options.AUTOSAVE_TICKS = Automatisch opslaan
+of.options.AUTOSAVE_TICKS.tooltip.1 = Autosave-interval
+of.options.AUTOSAVE_TICKS.tooltip.2 = Standaard automatisch opslaginterval (2s) wordt NIET AANBEVOLEN.
+of.options.AUTOSAVE_TICKS.tooltip.3 = Automatisch opslaan veroorzaakt de beroemde Lag Spike of Death.
+
+of.options.SCREENSHOT_SIZE = Schermgrootte
+of.options.SCREENSHOT_SIZE.tooltip.1 = Schermgrootte
+of.options.SCREENSHOT_SIZE.tooltip.2 = Standaard - standaard schermgrootte
+of.options.SCREENSHOT_SIZE.tooltip.3 = 2x-4x - aangepaste schermafbeelding
+of.options.SCREENSHOT_SIZE.tooltip.4 = Voor het maken van grotere screenshots is mogelijk meer geheugen nodig.
+of.options.SCREENSHOT_SIZE.tooltip.5 = Niet compatibel met Fast Render en Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6 = Vereist GPU framebuffer-ondersteuning.
+
+of.options.SHOW_GL_ERRORS = Toon GL-fouten
+of.options.SHOW_GL_ERRORS.tooltip.1 = OpenGL-fouten weergeven
+of.options.SHOW_GL_ERRORS.tooltip.2 = Wanneer ingeschakeld worden OpenGL-fouten getoond in de chat.
+of.options.SHOW_GL_ERRORS.tooltip.3 = Alleen uitschakelen als er een bekend conflict is en
+of.options.SHOW_GL_ERRORS.tooltip.4 = de fouten kunnen niet worden hersteld.
+of.options.SHOW_GL_ERRORS.tooltip.5 = Wanneer uitgeschakeld, worden de fouten nog steeds geregistreerd in de 
+of.options.SHOW_GL_ERRORS.tooltip.6 = error log en ze kunnen nog steeds een significante FPS-drop veroorzaken.
